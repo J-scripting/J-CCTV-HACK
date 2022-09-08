@@ -1,14 +1,14 @@
 # J-CCTV-HACK
 Hack cctv
 
-apt-get install python3
+apt update
 
-apt-get install git
+apt upgrade
 
-
+git clone https://github.com/J-scripting/J-CCTV-HACK.git
 
 cd J-CCTV-HACK
 
-pip3 install requests
+bash J-CCTV-HACK.sh
 
-python3 J-CCTV-HACK
+
